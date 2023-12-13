@@ -80,7 +80,7 @@ DATABASES = {
 CORS_ALLOWED_ORIGINS = [
     "http://92.255.107.252:8000/api/users/",
 ]
-CORS_ORIGIN_ALLOW_ALL = False
+CORS_ORIGIN_ALLOW_ALL = True
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
 
