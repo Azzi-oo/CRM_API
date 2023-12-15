@@ -20,3 +20,5 @@ class User(AbstractUser):
         related_name='custom_user_set',
         blank=True,
     )
+
+    role = models.CharField(max_length=100, blank=True, null=True)
